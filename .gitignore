@@ -29,6 +29,9 @@ build/
 dist/
 *.egg-info/
 
+
+
+
 # Arquivos de cobertura de código
 .coverage
 coverage.xml
