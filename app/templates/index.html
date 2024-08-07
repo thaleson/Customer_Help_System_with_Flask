@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ajuda ao Cliente</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Suporte ao Cliente</h1>
+        </header>
+        <ul id="notifications"></ul>
+        <form id="notificationForm">
+            <input type="text" id="client" placeholder="Digite seu nome ou ID" required>
+            <input type="text" id="message" placeholder="Digite sua mensagem" required>
+            <button type="submit">Enviar Solicitação de Ajuda</button>
+        </form>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.4.1/socket.io.min.js"></script>
+    <script src="{{ url_for('static', filename='scripts.js') }}"></script>
+</body>
+</html>

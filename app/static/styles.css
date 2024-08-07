@@ -1,0 +1,68 @@
+/* 
+Estilos principais para a página, incluindo corpo, containers, cabeçalhos, notificações e formulários.
+*/
+body {
+    font-family: Arial, sans-serif; /* Define a fonte padrão para a página */
+    background: black; /* Define o fundo da página como preto */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimento padrão */
+    display: flex; /* Usa flexbox para layout */
+    flex-direction: column; /* Define a direção dos itens flexíveis como coluna */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    height: 100vh; /* Define a altura da página como 100% da altura da viewport */
+}
+
+.container {
+    background: #fff; /* Define o fundo do container como branco */
+    border-radius: 8px; /* Adiciona bordas arredondadas ao container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave ao container */
+    width: 400px; /* Define a largura do container */
+    padding: 20px; /* Adiciona preenchimento interno ao container */
+    box-sizing: border-box; /* Inclui padding e bordas no cálculo da largura total */
+    margin-top: 20px; /* Adiciona uma margem superior ao container */
+}
+
+header {
+    background: #007bff; /* Define o fundo do cabeçalho com a cor azul */
+    color: white; /* Define a cor do texto do cabeçalho como branco */
+    padding: 10px 20px; /* Adiciona preenchimento ao cabeçalho */
+    border-top-left-radius: 8px; /* Adiciona borda arredondada no canto superior esquerdo */
+    border-top-right-radius: 8px; /* Adiciona borda arredondada no canto superior direito */
+    text-align: center; /* Centraliza o texto no cabeçalho */
+    margin-bottom: 20px; /* Adiciona uma margem inferior ao cabeçalho */
+}
+
+#notifications {
+    list-style-type: none; /* Remove marcadores da lista */
+    padding: 0; /* Remove preenchimento da lista */
+    margin: 0; /* Remove margem da lista */
+}
+
+#notifications li {
+    background: #f4f4f4; /* Define o fundo dos itens da lista como cinza claro */
+    margin: 10px 0; /* Adiciona uma margem vertical aos itens da lista */
+    padding: 15px; /* Adiciona preenchimento interno aos itens da lista */
+    border-radius: 4px; /* Adiciona bordas arredondadas aos itens da lista */
+    border-left: 5px solid #007bff; /* Adiciona uma borda esquerda azul aos itens da lista */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave aos itens da lista */
+}
+
+form {
+    display: flex; /* Usa flexbox para layout */
+    flex-direction: column; /* Define a direção dos itens flexíveis como coluna */
+    width: 100%; /* Define a largura do formulário como 100% do seu contêiner pai */
+}
+
+input, button {
+    padding: 10px; /* Adiciona preenchimento interno a inputs e botões */
+    margin-top: 10px; /* Adiciona uma margem superior a inputs e botões */
+    border: 1px solid #ccc; /* Define uma borda cinza clara para inputs e botões */
+    border-radius: 4px; /* Adiciona bordas arredondadas a inputs e botões */
+    font-size: 16px; /* Define o tamanho da fonte para inputs e botões */
+}
+
+button {
+    background-color: #007bff; /* Define o fundo do botão com a cor azul */
+    color: white; /* Define a cor do texto do botão como branco */
+    border: none; /* Remove a borda padrão do botão */
+}

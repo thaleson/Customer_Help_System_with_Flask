@@ -1,0 +1,50 @@
+# Diretórios de dependências e ambiente
+venv/
+.env
+
+# Arquivos de configuração de IDE e editor
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de configuração do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Arquivos de banco de dados
+*.sqlite3
+*.db
+
+# Arquivos gerados por testes
+*.log
+
+# Diretórios de build
+build/
+dist/
+*.egg-info/
+
+# Arquivos de cobertura de código
+.coverage
+coverage.xml
+
+# Arquivos de distribuição
+*.egg
+*.egg-info/
+*.whl
+
+# Arquivos gerados por testes e cobertura
+nosetests.xml
+pytest*.xml
+
+# Arquivos do Flask
+*.pkl
+
+# Arquivos específicos do Flask e SocketIO
+*.sock
+*.pid
